@@ -127,17 +127,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/waters321
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
+  github:  https://github.com/waters321
+  email: zhangmiao919@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1181062873
+  qq: 453066269
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
   rss: true # true、false
@@ -566,9 +566,9 @@ banner:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://beian.miit.gov.cn/
+  text: 冀ICP备17027404号
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
