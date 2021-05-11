@@ -66,8 +66,8 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 顺势而为，借势而起，造势而进，乘势而上！
-  text: 趋势到来之时，就如潮水一般不可阻挡，你只有顺着这个趋势，借着这个趋势更快的前行，才能乘势而上，更容易取得成功。但在这个选择大于努力的年代，更要懂得因势利导，“择”势而为，偶尔的变通，能够事半功倍。
+  title: 顺势而为，借势而起，造势而进，乘势而上
+  text: 
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -117,8 +117,9 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: /medias/logo/favicon.png
-logo: /medias/logo/logo.png
+logoIco: /medias/logo/waters321-ico.png
+logo: /medias/logo/waters321-ico.png
+logoFont: /medias/logo/waters321-font.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -545,10 +546,13 @@ subtitle:
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  backSpeed: 0 # 删除速度
   sub:
-    - 从来没有真正的绝境, 只有心灵的迷途
-    - Never really desperate, only the lost of the soul
+    - 趋势到来之时，就如潮水一般不可阻挡
+    - 你只有顺着这个趋势，借着这个趋势更快的前行，才能乘势而上，更容易取得成功
+    - 在这个选择大于努力的年代
+    - 更要懂得因势利导，“择”势而为，偶尔的变通，能够事半功倍
+
 
 # 手机二级菜单.
 navMenu:

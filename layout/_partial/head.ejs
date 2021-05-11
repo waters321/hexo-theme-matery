@@ -45,7 +45,7 @@
     description = description ? description : pageTitle;
 
     let iconType = 'image/png'
-    let faviconExt = theme.favicon.substr(theme.favicon.lastIndexOf('.') + 1, theme.favicon.length)
+    let faviconExt = theme.logoIco.substr(theme.logoIco.lastIndexOf('.') + 1, theme.logoIco.length)
     if (faviconExt === 'png') {
         iconType = 'image/png'
     } else if (faviconExt === 'svg') {
@@ -74,7 +74,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <%- partial('_partial/google-analytics') %>
     <title><%= pageTitle %></title>
-    <link rel="icon" type="<%= iconType %>" href="<%- theme.jsDelivr.url %><%- url_for(theme.favicon) %>">
+    <link rel="icon" type="<%= iconType %>" href="<%- theme.jsDelivr.url %><%- url_for(theme.logoIco) %>">
 
     <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.fontAwesome) %>">
     <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.materialize) %>">
