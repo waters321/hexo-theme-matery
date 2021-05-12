@@ -19,9 +19,9 @@ menu:
   Contact:
     url: /contact
     icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+  # Friends:
+  #   url: /friends
+  #   icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -163,7 +163,7 @@ code:
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
   enable: true
-  title: 你的赏识是我前进的动力
+  title: 你的认可是我前进的动力
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.png
 
