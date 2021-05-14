@@ -33,7 +33,7 @@ configRoot = (configRoot === null || configRoot === undefined || configRoot === 
         <% Object.keys(theme.menu).forEach(function(key) { %>
         <li class="m-nav-item">
 	  <% if(!theme.menu[key].children) { %>
-		<a href="<%- url_for(theme.menu[key].url) %>" class="waves-effect waves-light">
+		<a href="<%- url_for(theme.menu[key].url) %>index.html" class="waves-effect waves-light">
 			<% if (theme.menu[key].icon && theme.menu[key].icon.length > 0) { %>
 			    <i class="fa-fw <%- theme.menu[key].icon %>"></i>
 			<% } else { %>
@@ -55,7 +55,7 @@ configRoot = (configRoot === null || configRoot === undefined || configRoot === 
               <% for(let childrenLink of theme.menu[key].children){ %>
                 <li>
 
-                  <a href="<%- url_for(childrenLink.url)%> " style="margin-left:<% if (theme.navMenu && theme.navMenu.mleft) {%>50px<%}else{%>75px<%}%>">
+                  <a href="<%- url_for(childrenLink.url)%>index.html" style="margin-left:<% if (theme.navMenu && theme.navMenu.mleft) {%>50px<%}else{%>75px<%}%>">
 				  <% if (childrenLink.icon && childrenLink.icon.length > 0) { %>
 				   <i class="fa <%- childrenLink.icon %>" style="position: absolute;left:<%if(theme.navMenu&&theme.navMenu.mleft){%>28px<%}else{%>50px<%}%>" ></i>
 			      <% } %>

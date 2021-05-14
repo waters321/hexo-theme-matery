@@ -12,7 +12,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- url_for('/about') %>" rel="external nofollow noreferrer"><%- page.author || config.author %></a>
+                    <a href="<%- url_for('/about') %>index.html" rel="external nofollow noreferrer"><%- page.author || config.author %></a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -22,7 +22,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                    <a href="<%- config.url %><%- url_for(page.path) %>index.html"><%- config.url %><%- url_for(page.path) %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -35,7 +35,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     <%= __('use') %>
                     <a href="<%= __('cc_by_url') %>" rel="external nofollow noreferrer" target="_blank"><%= __('cc_by_name') %></a>
                     <%= __('licensed') %>
-                    <a href="<%- url_for('/about') %>" target="_blank"><%- page.author || config.author %></a>
+                    <a href="<%- url_for('/about') %>index.html" target="_blank"><%- page.author || config.author %></a>
                     !
                 </span>
             </div>
@@ -47,7 +47,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- url_for('/about') %>" rel="external nofollow noreferrer"><%- page.author || config.author %></a>
+                    <a href="<%- url_for('/about') %>index.html" rel="external nofollow noreferrer"><%- page.author || config.author %></a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -57,7 +57,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                    <a href="<%- config.url %><%- url_for(page.path) %>index.html"><%- config.url %><%- url_for(page.path) %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -92,7 +92,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                    <a href="<%- config.url %><%- url_for(page.path) %>index.html"><%- config.url %><%- url_for(page.path) %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -127,7 +127,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                    <a href="<%- config.url %><%- url_for(page.path) %>index.html"><%- config.url %><%- url_for(page.path) %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -162,7 +162,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                     </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                    <a href="<%- config.url %><%- url_for(page.path) %>index.html"><%- config.url %><%- url_for(page.path) %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -197,7 +197,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                    <a href="<%- config.url %><%- url_for(page.path) %>index.html"><%- config.url %><%- url_for(page.path) %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -226,7 +226,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
             </a>
             <%= __('workPublishedFrom') %>
             <span property="vcard:Country" datatype="dct:ISO3166"
-                content="<%= __('cc_0_content') %>" about="<%- url_for(page.path) %>">
+                content="<%= __('cc_0_content') %>" about="<%- url_for(page.path) %>index.html">
                 <%= __('cc_0_country') %>
             </span>
             </p>
