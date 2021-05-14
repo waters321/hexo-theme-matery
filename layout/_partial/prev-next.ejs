@@ -23,7 +23,7 @@ var featureImages = theme.featureImages;
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;<%= __('prev') %></div>
             <div class="card">
-                <a href="<%- url_for(page.prev.path) %>">
+                <a href="<%- url_for(page.prev.path) %>index.html">
                     <div class="card-image">
                         <% if (page.prev.img) { %>
                         <img src="<%- url_for(page.prev.img) %>" class="responsive-img" alt="<%= page.prev.title %>">
@@ -85,7 +85,7 @@ var featureImages = theme.featureImages;
                 <i class="far fa-dot-circle"></i>&nbsp;<%= __('curr') %>
             </div>
             <div class="card">
-                <a href="<%- url_for(page.path) %>">
+                <a href="<%- url_for(page.path) %>index.html">
                     <div class="card-image">
                         <% if (page.img) { %>
                         <img src="<%- url_for(page.img) %>" class="responsive-img" alt="<%= page.title %>">
@@ -147,7 +147,7 @@ var featureImages = theme.featureImages;
                 <%= __('next') %>&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="<%- url_for(page.next.path) %>">
+                <a href="<%- url_for(page.next.path) %>index.html">
                     <div class="card-image">
                         <% if (page.next.img) { %>
                         <img src="<%- url_for(page.next.img) %>" class="responsive-img" alt="<%= page.next.title %>">
@@ -207,7 +207,7 @@ var featureImages = theme.featureImages;
                 <%= __('curr') %>&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="<%- url_for(page.path) %>">
+                <a href="<%- url_for(page.path) %>index.html">
                     <div class="card-image">
                         <% if (page.img) { %>
                         <img src="<%- url_for(page.img) %>" class="responsive-img" alt="<%= page.title %>">
