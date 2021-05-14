@@ -43,7 +43,7 @@
             <% if (date(post.date, 'YYYY') != year) { %>
             <% year = date(post.date, 'YYYY'); %>
             <div class="cd-timeline-img year" data-aos="zoom-in-up">
-                <a href="<%- url_for('/archives/' + year) %>index.html"><%- year %></a>
+                <a href="<%- url_for('/archives/' + year) %>/index.html"><%- year %></a>
             </div>
             <% } %>
 
@@ -54,7 +54,7 @@
                 var m = date(post.date, 'MM')
             %>
             <div class="cd-timeline-img month" data-aos="zoom-in-up">
-                <a href="<%- url_for('/archives/' + year + '/' + m) %>index.html"><%- m %></a>
+                <a href="<%- url_for('/archives/' + year + '/' + m) %>/index.html"><%- m %></a>
             </div>
             <% } %>
 
